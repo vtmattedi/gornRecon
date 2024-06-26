@@ -47,6 +47,9 @@ const Settings = () => {
                         style={{ padding: 5, margin: 5}}
                      />
                 </View>
+                <View style={styles.fieldContainer}>
+                    <Text>{"Developed by Vitor Mattedi Carvalho"}</Text>
+                </View>
             </ImageBackground>
         </SafeAreaView>
     );
